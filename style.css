@@ -69,3 +69,73 @@
     background-color: rgb(113, 113, 243);
     border-radius: 8px;
 }
+
+.upper-chest{
+    display: flex;
+    align-items: center;
+}
+.upper-chest-head{
+    font-size: 40px;
+    padding: 20px;
+    color: #F948B2;
+}
+.upper-chest-container{
+    text-align: right;
+    margin-right: 40px;
+}
+.upper-chest-para{
+    padding: 20px;
+}
+.upper-chest-container .pink{
+    margin-left: 20px;
+}
+.upper-chest-title{
+    padding: 10px;
+}
+.upper-chest-title-details{
+    font-weight: 600;
+}
+.chest-contain{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    
+}
+.chest-head{
+    font-weight: 900;
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+}
+
+.chest-para{
+    text-align: center;
+    padding: 15px;
+}
+.chest-contain-caption{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.abdomen{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.pink-head{
+    font-weight: 700;
+    font-size: 40px;
+    color: #F948B2;
+}
+
+.abdomen-head{
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 100px;
+}
