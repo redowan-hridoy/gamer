@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    border: #fff;
+}
+
+.logo{
+    display: flex;
+    padding-top: 5px;
+}
+
+.menu-title{
+   margin-left: 1rem;
+}
+
+.menu-list{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.menubar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 12px;
+    align-items: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.face-contain{
+    background-image: url(images/Group\ 14.png);
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.face{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff linear 50%;
+    height: 110vh;
+
+}
+
+.face-img{
+    width: 50%;
+}
+.simple{
+    font-size: 3rem;
+}
+
+.color{
+    font-size: 3rem;
+    color: purple;
+}
+.face-button{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: left;
+    padding-top: 10px;
+}
+.pink{
+    padding: 8px;
+    background-color: magenta;
+    border-radius: 8px;
+}
+.blue{
+    padding: 8px;
+    background-color: rgb(113, 113, 243);
+    border-radius: 8px;
+}
