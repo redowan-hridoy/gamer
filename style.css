@@ -60,12 +60,12 @@
     padding-top: 10px;
 }
 .pink{
-    padding: 8px;
+    padding: 8px 16px;
     background-color: magenta;
     border-radius: 8px;
 }
 .blue{
-    padding: 8px;
+    padding: 8px 16px;
     background-color: rgb(113, 113, 243);
     border-radius: 8px;
 }
@@ -138,4 +138,72 @@
     font-weight: 700;
     font-size: 40px;
     padding-top: 100px;
+}
+
+.pelvic-img{
+    text-align: center;
+    border: 2px solid white;
+    height: 250px;
+    width: 200px;
+    margin-left: 550px;
+    margin-top: -550px;
+}
+.btn{
+    border-radius: 8px;
+    
+}
+.knee-contain{
+    display: grid; 
+   padding: 100px;
+   grid-template-columns: repeat(5, 1fr);
+   gap: 20px;
+   padding-right: 550px;
+}
+
+.box-one{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 40px;
+    padding: 10px;
+    gap: 20px;
+    padding-right: 80px;
+    justify-content: center;
+
+}
+
+.footer-head{
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+    display: flex;
+    padding-left: 35rem;
+    gap: 5px;
+    
+}
+
+footer{
+    height: 50vh;
+    background-color: rgb(12, 12, 14);
+}
+.footer-contain{
+    padding-top: 50px;
+    display: flex;
+    color: #fff;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.footer-note{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    padding-top: 50px;
+    list-style: none;
+}
+
+.copyright{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
 }
