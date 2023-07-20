@@ -1,0 +1,14 @@
+/* small device */
+@media screen and {max-width: 767px;} {
+    
+}
+
+/* medium device */
+@media screen and {min-width: 768px;} and {max-width: 1023px;} {
+    
+}
+
+/* large device */
+@media screen and {min-width: 1024px;} {
+    
+}
