@@ -2,6 +2,9 @@
     margin: 0%;
     border: #fff;
 }
+.pink-letter{
+    color: #F948B2;
+}
 
 .logo{
     display: flex;
@@ -183,7 +186,7 @@
 }
 
 footer{
-    height: 50vh;
+    height: 65vh;
     background-color: rgb(12, 12, 14);
 }
 .footer-contain{
@@ -194,11 +197,32 @@ footer{
     justify-content: space-evenly;
 }
 
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+.fa fa-facebook{
+    color: #fff;
+    font-size: xx-large;
+
+}
+.fa fa-youtube-play{
+    color: #fff;
+    font-size: xx-large;
+}
+
+.fa fa-twitter{
+    color: #fff;
+    font-size: xx-large;
+}
 .footer-note{
     display: flex;
     justify-content: space-evenly;
     color: #fff;
-    padding-top: 50px;
+    padding-top: 10px;
     list-style: none;
 }
 
@@ -206,4 +230,5 @@ footer{
     color: #fff;
     text-align: center;
     padding-top: 80px;
+    padding-bottom: 10px;
 }
